@@ -5,14 +5,14 @@ import { Title_Subtitle } from "../components/Title_Subtitle.jsx";
 export const Contact = () => {
   const [result, setResult] = useState("");
 
-  const api = import.meta.env.VITE_API_KEY;
+ 
 
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", api);
+    formData.append("access_key", '516fde5a-d9f6-4994-a028-572781aa7162');
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
