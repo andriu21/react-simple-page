@@ -6,7 +6,7 @@ import { About } from "./components/About.jsx";
 import { Gallery } from "./components/Gallery.jsx";
 import { Testimonial } from "./components/Testimonial.jsx";
 import { Contact } from "./components/Contact.jsx";
-
+import { Footer } from "./components/Footer.jsx";
 
 const  App =()=> {
 
@@ -20,6 +20,7 @@ const  App =()=> {
      <Gallery />
      <Testimonial />
      <Contact />
+     <Footer />
     </>
   )
 }
