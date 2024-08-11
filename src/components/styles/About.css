@@ -84,7 +84,7 @@
 
 @media (max-width:450px) {
     .About{
-        padding: 3rem 1rem;
+        padding: 3rem 4rem;
         flex-direction: column;
     }
 
