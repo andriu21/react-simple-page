@@ -1,4 +1,4 @@
-import AboutVideo from "../assets/section_video.mp4";
+import AboutVideo from "../assets/section_video.webm";
 import { useState } from "react";
 import { Title_Subtitle } from "./Title_Subtitle.jsx";
 import "./styles/About.css";
