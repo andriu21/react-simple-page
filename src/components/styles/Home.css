@@ -1,0 +1,57 @@
+.home{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom,rgba(0,0,0,.4),rgba(0,0,0,.9)), url('/src/assets/mujer-asistiendo-clases-online.jpg') ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 7%;
+}
+
+.home_title{
+    font-size: calc(1.5rem + 4vw);
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.home_description{
+    font-size: 2rem;
+    color: #fff;
+    width: 70%;
+    text-align: center;
+    font-weight: 300;
+}
+
+
+
+@media (max-width:450px) {
+    .home_description{
+        width: 100%;
+        line-height: 1.2;
+    }
+
+    .home_title{
+        font-size: calc(1.5rem + 6vw);
+     
+    }
+
+    .home_container{
+        padding: 2rem 1%;
+    }
+    
+    
+    
+}

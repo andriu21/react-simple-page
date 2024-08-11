@@ -1,0 +1,29 @@
+.header{
+    width: 100vw;
+    padding: 1.5rem 7%;
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    transition: all .2s;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header.active{
+    background-color:rgb(26, 41, 126);
+    border-bottom-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+    box-shadow: .5rem .7rem .5rem rgba(0, 0, 0, .3);
+}
+
+.header_title{
+    font-size: 2rem;
+    font-family: var(--font-principal);
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    color: #fff;
+}
+
